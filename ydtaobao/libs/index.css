@@ -1,0 +1,601 @@
+*{padding: 0;
+margin: 0;}
+/*/头部开始*/
+#head{
+	width: 100%;
+	background: #fe5400 ;
+	overflow: hidden;
+	
+}
+#head i.iconfont.icon-tao{
+	color: white;
+	font-size: 8vw;
+	float: left;
+	/*margin-left: 1%;*/
+}
+#head a{
+	width: 87%;
+	/*background: red;*/
+	/*border: 1px outset yellow;*/
+	text-decoration: none;
+	color: white;
+	display: block;
+	float: left;
+	margin-left: 1%;
+	margin-top: 1.2%;
+	text-align: center;
+	background: #b52600;
+	border-radius: 5px;
+	font-size: 3vw;
+	line-height: 2em;
+}
+/*头部结束*/
+/*轮播图部分开始*/
+#flash{
+	width: 100%;
+}
+/*轮播图部分结束*/
+/*选购区域开始*/
+#neo{width: 90%;
+/*border: 1px outset black;*/
+margin:0 auto;
+display: flex;
+flex-wrap: wrap;
+margin-top: 2%;}
+
+#neo li{
+	width:20%;
+	/*text-align: center;*/
+	list-style: none;
+	box-sizing: border-box;
+	margin-top: 2%;
+}
+#neo li a{
+	text-align: center;
+	color: black;
+	text-decoration: none;
+	font-size: 2vw;
+	display: block;
+	width: 100%;
+	margin-top: 2%;
+}
+#neo li img{
+	width: 100%;
+}
+/*选购区域结束*/
+/*淘宝头条区域开始*/
+#news{ width: 100%;
+border-top: 1px outset #F3F3F3;
+margin-top: 5px;
+border-bottom: 4px solid #EEEEEE;
+/*margin-bottom: 3%;*/
+padding-bottom: 2%;
+overflow: hidden;
+}
+#news img{
+	width: 18%;
+	display: block;
+	margin-left: 6%;
+	margin-top: 4%;
+	/*border: 1px outset black;*/
+	padding-right: 3%;
+	border-right:1px outset #F3F3F3 ;
+	float: left;
+}
+#news span{
+	display: block;
+	width: 9%;
+	border: 1px outset red;
+	padding: 3px;
+	float: left;
+	text-align: center;
+	margin-top: 3%;
+	margin-left: 2%;
+	font-size: 3vw;
+	color: red;
+	border-radius: 7px;
+}
+#news a{
+	width: 55%;
+	color: black;
+	text-decoration: none;
+	display: block;
+	float: left;
+	margin-top: 3.5%;
+	margin-left: 9px;
+	font-size: 3.5vw;
+}
+/*淘宝头条区域结束*/
+/*海淘购区域开始*/
+#shop{
+	width: 100%;
+	position: relative;
+}
+#shop #haitao{
+	width: 40%;
+	position: relative;
+	float: left;
+}
+#shop #youhaohuo1{
+	width: 30%;
+	position: relative;
+	float: left;
+}
+#shop #youhaohuo2{
+	width: 30%;
+	position: relative;
+	float: left;
+}
+#shop #youhaohuo3{
+	width: 30%;
+	position: relative;
+	float: right;
+	margin-top: 2%;
+}
+#shop #youhaohuo4{
+	width: 30%;
+	position: relative;
+	float: left;
+	margin-top: 2%;
+}
+/*海淘购区域结束*/
+/*分界线开始*/
+#xian{
+	width: 100%;
+	border-bottom: 4px solid #EEEEEE;
+	overflow: hidden;
+	position: relative;
+	box-sizing: border-box;
+	
+}
+/*分界线结束*/
+/*超实惠开始*/
+#chaoshihui{
+width: 100%;
+/*background: red;*/
+box-sizing: border-box;
+overflow: hidden;
+border-bottom: 5px solid #EEEEEE;
+
+}
+#chaoshihui p{
+	font-size: 4vw;
+	/*background: red;*/
+	width: 100%;
+	text-align: center;
+	display: block;
+	/*margin: 0 auto;*/
+	color: rgb(255, 53, 14);
+	/*font-size: 22px;*/
+	background: transparent;
+	/*border-bottom: 1px solid #EEEEEE;*/	
+	margin-bottom: 1%;
+}
+.chaoshihui_one{
+	border-bottom: 1px solid #EEEEEE;
+}
+.chaoshihui_one #chaoshihui1{
+	width: 35%;
+	/*border: 1px solid yellow;*/
+	border-right: 1px solid #EEEEEE;
+	float: left;
+}
+.chaoshihui_one #chaoshihui2{
+	width: 20%;
+	/*border: 1px solid #EEEEEE;*/
+	border-right: 1px solid #EEEEEE;
+	/*padding: 5%;*/
+	height: 100%;
+	margin-top:1px;
+	float: left;
+}
+.chaoshihui_one #chaoshihui3{
+	width: 20%;
+	border-right: 1px solid #EEEEEE;
+	/*padding: 5%;*/
+	height: 100%;
+	margin-top:1px;
+	margin-left: 0px;
+	float: left;
+}
+.chaoshihui_one #chaoshihui4{
+	width: 20%;
+	float: left;
+}
+.chaoshihui_two #chaoshihui1{
+	width: 35%;
+	/*border: 1px solid yellow;*/
+	border-right: 1px solid #EEEEEE;
+	float: left;
+}
+.chaoshihui_two #chaoshihui2{
+	width: 20%;
+	border-right: 1px solid #EEEEEE;
+	/*padding: 5%;*/
+	height: 100%;
+	margin-top:1px;
+	float: left;
+}
+.chaoshihui_two #chaoshihui3{
+	width: 20%;
+	border-right: 1px solid #EEEEEE;
+	/*padding: 5%;*/
+	height: 100%;
+	margin-top:1px;
+	margin-left: 0px;
+	float: left;
+}
+.chaoshihui_two #chaoshihui4{
+	width: 20%;
+	float: left;
+}
+/*超实惠结束*/
+/*天猫必购开始*/
+#tianmaobigou{
+	overflow: hidden;
+	border-bottom: 5px solid #EEEEEE;	
+}
+#tianmaobigou p{
+	font-size: 4vw;
+	/*background: red;*/
+	width: 100%;
+	text-align: center;
+	display: block;
+	/*margin: 0 auto;*/
+	color:rgb(209, 9, 9);
+	/*font-size: 22px;*/
+	background: transparent;
+	/*border-bottom: 1px solid #EEEEEE;*/	
+	/*margin-bottom: 1%;*/
+	margin-bottom: 1%;
+	border-bottom: 1px solid #EEEEEE;
+}
+.tianmaogouwu_one{ 
+border-bottom: 1px solid #EEEEEE;
+overflow: hidden;}
+#tianmaogouwu1{
+	width: 49%;
+	border-right: 1px solid #EEEEEE;
+}
+#tianmaobigou2{
+	width: 49%;	
+}
+#tianmaobigou3,#tianmaobigou4,#tianmaobigou5,#tianmaobigou6{
+	width: 23.5%;
+}
+/*天猫必购结束*/
+/*特色好货开始*/
+#tesehaohuo{
+	overflow: hidden;
+	border-bottom: 1px solid #EEEEEE;
+}
+#tesehaohuo p{
+	font-size: 4vw;
+	/*background: red;*/
+	width: 100%;
+	text-align: center;
+	display: block;
+	/*margin: 0 auto;*/
+	color:rgb(255, 104, 19);
+	/*font-size: 22px;*/
+	background: transparent;
+	/*border-bottom: 1px solid #EEEEEE;*/	
+	/*margin-bottom: 1%;*/
+	margin-bottom: 1%;
+	border-bottom: 1px solid #EEEEEE;
+}
+#tesehaohuo #tesehaohuo1{
+	width: 40%;
+	border-right: 1px solid #E7E1CD;
+	box-sizing: border-box;
+}
+#tesehaohuo #tesehaohuo2,#tesehaohuo3,#tesehaohuo4{
+	width: 18.5%;
+}
+#tesehaohuo #tesehaohuo5{
+	width: 40%;
+	border-right: 1px solid #E7E1CD;
+	box-sizing: border-box;
+}
+#tesehaohuo #tesehaohuo6,#tesehaohuo7,#tesehaohuo8{
+	width: 18.5%;
+}
+/*特色好货结束*/
+/*更多服务开始*/
+#gengduofuwu{
+	overflow: hidden;
+	position: relative;
+}
+#gendguofuwu1{
+	width: 50%;
+	float: left;
+}
+#gengduofuwu p{
+	display: block;
+	/*border: 1px solid yellow;*/
+	float: left;
+	position: absolute;
+	right: 20px;
+	top: 15px;
+	text-align: center;
+	font-size: 3vw;
+}
+#gendguofuwu2{
+	display: block;
+	float: right;
+	position:absolute;
+	right: 4px;
+	top: 15px;
+	width: 2%;
+}
+/*更多服务结束*/
+/*阿里健康开始*/
+#alijiankang{width: 100%;
+border-bottom: 5px solid #EEEEEE;}
+/*阿里健康结束*/
+/*热门市场开始*/
+#remenshichang {
+	position: relative;
+	box-sizing: border-box;
+	
+}
+#remenshichang p.biaoti{
+	font-size: 4vw;
+	/*background: red;*/
+	width: 100%;
+	text-align: center;
+	display: block;
+	/*margin: 0 auto;*/
+	color:rgb(209, 9, 9);
+	/*font-size: 22px;*/
+	background: transparent;
+	/*border-bottom: 1px solid #EEEEEE;*/	
+	/*margin-bottom: 1%;*/
+	margin-bottom: 1%;
+	border-bottom: 1px solid #EEEEEE;
+	position: relative;
+}
+#remenshichang span{
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 5%;
+	font-size: 3vw;
+}
+#remenshichang  #san{
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 4px;
+	width: 2%;
+	/*font-size: 3vw;*/
+}
+#remenshichang_one{
+	border-bottom: 1px solid #EEEEEE;
+	overflow: hidden;
+}
+#remenshichang_one .tu{
+	width: 24%;
+	position: relative;
+	float: left;
+    /*background: orange;*/
+}
+#remenshichang_one .one{
+	display: block;
+	position: relative;
+	top: 0;
+	left: 0;
+	color: black;
+	border-bottom: none;
+	font-size: 3vw;
+	margin-top: 4%;
+	/*border: 1px solid yellow;*/
+}
+#remenshichang_one .two{
+	display: block;
+	position: relative;
+	top: 0;
+	left: 0;
+	color: black;
+	border-bottom: none;
+	font-size: 3vw;
+	margin-top: 4%;
+	
+	/*border: 1px solid yellow;*/
+}
+#remenshichang_one .tu img{
+	width: 100%;
+}
+.remenshichang_two{
+	width: 100%;
+	overflow: hidden;
+	
+}
+.remenshichang_two .tu_2{
+	width: 49%;
+	border-right: 1px solid #EEEEEE;
+	position: relative;
+	float: left;
+	height: 50%;
+}
+.remenshichang_two .tu_2 p.one{
+	color: rgb(0,0,0,0);
+	font-size: 4vw;
+	margin-left: 4%;
+	margin-top: 5%;
+}
+.remenshichang_two .tu_2 p.two{
+	/*color: black;*/
+	color: rgb(136, 136, 136);
+	width: 200%;
+		margin-left: 4%;
+	/*margin-top: 5%;*/
+		font-size: 3vw;
+}
+.remenshichang_two .tu_2 img{
+	width: 50%;
+	margin-top: 5%;
+	position: relative;
+	float: left;
+	border-bottom: 1px solid #E7E1CD;
+}
+/*热门市场结束*/
+/*撩汉子*/
+#liaohanzi{
+	width: 100%;
+	border-bottom: 5px solid #EEEEEE;
+	}
+#liaohanzi img{
+	width: 100%;
+}
+/*撩汉子结束*/
+/*每日好店开始*/
+#meirihaodian{
+	position: relative;
+	overflow: hidden;
+	border-bottom: 5px solid #EEEEEE;}
+#meirihaodian p.biaoti{
+	font-size: 4vw;
+	/*background: red;*/
+	width: 100%;
+	/*text-align: center;*/
+	display: block;
+	/*margin: 0 auto;*/
+	
+	color: black
+	/*font-size: 22px;*/
+	background: transparent;
+	/*border-bottom: 1px solid #EEEEEE;*/	
+	/*margin-bottom: 1%;*/
+	margin-bottom: 1%;
+	border-bottom: 1px solid #EEEEEE;
+	position: relative;
+}
+#meirihaodian span{
+	display: block;
+	position: absolute;
+	top: 1%;
+	right: 5%;
+	font-size: 3vw;
+}
+#meirihaodian #san{
+	display: block;
+	position: absolute;
+	top: 1%;
+	right: 4px;
+	width: 2%;
+	/*font-size: 3vw;*/
+}
+.meirihaodian_one{
+width: 48%;
+/*margin-right: 10%;*/
+position: relative;
+overflow: hidden;
+float: left;
+margin-left: 2%;
+margin-top: 2%;
+}
+.meirihaodian_one_1{
+	width: 30%;
+	position: relative;
+	/*margin-right: 10%;*/
+	float: left;
+}
+.meirihaodian_one_1 img{
+	width: 100%;
+}
+.meirihaodian_one_2{width: 62%;
+position: absolute;
+	float: left;
+	top: 0;
+	left: 30%;
+}
+.meirihaodian_one_2 img{
+	width: 100%;	
+}
+
+/*每日好店结束*/
+/*猜你喜欢开始*/
+#cainixihuan p.cainixhuan{
+	text-align: center;
+	color: black;
+	font-size: 4vw;
+	position: relative;
+	
+}
+#cainixihuan p.shishi{
+	text-align: center;
+	color: rgb(120, 120, 120);
+	font-size:3vw;
+}
+#cainixihuan .kuai{
+	width: 50%;
+	float: left;
+	position: relative;
+	box-sizing: border-box;
+	/*max-height: 100%;*/
+	border: 1px solid #EEEEEE;
+	
+}
+#cainixihuan .kuai img{
+	width: 100%;
+}
+#cainixihuan .kuai p.jieshao{
+	width: 90%;
+	max-height: 32px;
+	white-space: normal;
+	text-overflow: ellipsis;
+	height: 20%;
+	color: rgb(102, 102, 102);
+	font-size: 3vw;
+	overflow: hidden;
+	text-autospace: inherit;
+	margin-left: 10px;
+}
+#cainixihuan .kuai p.prees{
+	color: rgb(255, 80, 0);
+	font-size: 4vw;
+	/*margin-right: 10%;*/
+	display: block;
+	margin-top: 20px;
+	margin-left: 10px;
+ }
+/*猜你喜欢结束* */
+/*底部黑框开始*/
+#black_box{
+width: 100%;
+background: #4e525e;
+overflow: hidden;
+}#black_box #cenrer{
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#black_box #cenrer .box_one{
+	width: 19%;
+	float: left;
+	/*color: red;*/
+	color: #c3c6ca;
+	font-size: 3.5vw;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	border: 1px solid #42454d;
+	background: #555965;
+	/*border: 1px solid orange;*/
+	text-align: center;
+	margin-right: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.banquan{
+	color: #c3c6ca;
+	font-size: 3vw;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+.banquan p{
+	margin:  0 auto;
+	width: 80%;
+	text-align: center;
+}
+/*底部黑框*/
